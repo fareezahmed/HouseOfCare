@@ -2510,12 +2510,8 @@ input, select, textarea {
 			display: block;
 			position: absolute;
 			left: 0;
-			top: 60%;
-			/* background-image: url("images/overlay.png"); */
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 1), rgba(23, 24, 32, 1)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 1), rgba(23, 24, 32, 1)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 1), rgba(23, 24, 32, 1)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 1), rgba(23, 24, 32, 1)), url("images/overlay.png");;
+			top: 0;
+			background-image: url("images/overlay.png");
 			width: 100%;
 			height: 100%;
 			z-index: 1;
@@ -4128,4 +4124,20 @@ input, select, textarea {
 
 	.content.special h2 {
 		text-align: center;
+	}
+
+	.landing #page-wrapper #banner .image:before {
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 60%;
+		/* background-image: url("images/overlay.png"); */
+		background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 1), rgba(23, 24, 32, 1)), url("images/overlay.png");;
+		background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 1), rgba(23, 24, 32, 1)), url("images/overlay.png");;
+		background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 1), rgba(23, 24, 32, 1)), url("images/overlay.png");;
+		background-image: linear-gradient(top, rgba(23, 24, 32, 1), rgba(23, 24, 32, 1)), url("images/overlay.png");;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
 	}
